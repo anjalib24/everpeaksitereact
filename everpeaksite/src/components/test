@@ -1,0 +1,224 @@
+import React from 'react'
+import './Testimonial.css';
+const Testimonial = () => {
+  return (
+    <>
+  <section className="testemonial">
+    <div className="container">
+      {/* THEME DEBUG */}
+      {/* THEME HOOK: 'region' */}
+      {/* FILE NAME SUGGESTIONS:
+   * region--testimonial.html.twig
+   x region.html.twig
+*/}
+      {/* BEGIN OUTPUT from 'themes/custom/virtual_team/templates/classy/layout/region.html.twig' */}
+      <div className="region region-testimonial">
+        {/* THEME DEBUG */}
+        {/* THEME HOOK: 'block' */}
+        {/* FILE NAME SUGGESTIONS:
+   * block--whatourclientsayaboutus.html.twig
+   * block--block-content--7b014572-aa25-4edc-8c6c-ae27c99a0ab4.html.twig
+   * block--block-content.html.twig
+   * block--block-content.html.twig
+   x block.html.twig
+*/}
+        {/* BEGIN OUTPUT from 'themes/custom/virtual_team/templates/block.html.twig' */}
+        <div
+          id="block-whatourclientsayaboutus"
+          className="block block-block-content block-block-content7b014572-aa25-4edc-8c6c-ae27c99a0ab4"
+        >
+          <div className="content">
+            {/* THEME DEBUG */}
+            {/* THEME HOOK: 'field' */}
+            {/* FILE NAME SUGGESTIONS:
+   * field--block-content--body--basic.html.twig
+   * field--block-content--body.html.twig
+   * field--block-content--basic.html.twig
+   * field--body.html.twig
+   x field--text-with-summary.html.twig
+   * field.html.twig
+*/}
+            {/* BEGIN OUTPUT from 'themes/custom/virtual_team/templates/classy/field/field--text-with-summary.html.twig' */}
+            <div className="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+              <div className="section-header text-center">
+                <h2>
+                  <span>what our client say about us </span>
+                </h2>
+              </div>
+              {/*/.section-header*/}
+              <div className="owl-carousel owl-theme" id="testemonial-carousel">
+                <div className="home1-testm item">
+                  <div className="home1-testm-single text-center">
+                    <div className="home1-testm-txt">
+                      <p>
+                        <em>
+                          Everpeak Team is absolutely amazing. His work is
+                          excellent, he is very knowledgable, works fast and
+                          efficient, friendly, always on time, and just an
+                          amazing person to work with. I'm happy the works is
+                          done, but I'm sad to be done working with him.. for
+                          now! I recommend him to everyone looking to migrate
+                          their drupal site."
+                        </em>
+                      </p>
+                      <h3>Michael</h3>
+                    </div>
+                    {/*/.home1-testm-txt*/}
+                  </div>
+                  {/*/.home1-testm-single*/}
+                </div>
+                {/*/.item*/}
+                <div className="home1-testm item">
+                  <div className="home1-testm-single text-center">
+                    <div className="home1-testm-txt">
+                      <p>
+                        <em>
+                          Everpeak Team was very professional and skilled. Vidit
+                          was quick to communicate and very accessible to meet
+                          and work on the issues. We highly recommend Everpeak
+                          It Solution and will use him in the future!
+                        </em>
+                      </p>
+                      <h3>Sam Gotts</h3>
+                    </div>
+                    {/*/.home1-testm-txt*/}
+                  </div>
+                  {/*/.home1-testm-single*/}
+                </div>
+                {/*/.item*/}
+                <div className="home1-testm item">
+                  <div className="home1-testm-single text-center">
+                    <div className="home1-testm-txt">
+                      <p>
+                        <em>
+                          Working with Everpeak was a pleasure. Vidit was very
+                          responsive, quick and collaborated with me until the
+                          requirements for this project were met. Highly
+                          recommended. I'll definitely work with him again in
+                          the future. I'm a developer myself so I can vouch for
+                          his competence. Thank you!"
+                        </em>
+                      </p>
+                      <h3>
+                        <strong data-v-0bb8c326="">David Mansaray</strong>
+                        <a href="#"> </a>
+                      </h3>
+                    </div>
+                    {/*/.home1-testm-txt*/}
+                  </div>
+                  {/*/.home1-testm-single*/}
+                </div>
+                {/*/.item*/}
+              </div>
+              {/*/.testemonial-carousel*/}
+            </div>
+            {/* END OUTPUT from 'themes/custom/virtual_team/templates/classy/field/field--text-with-summary.html.twig' */}
+          </div>
+        </div>
+        {/* END OUTPUT from 'themes/custom/virtual_team/templates/block.html.twig' */}
+      </div>
+      {/* END OUTPUT from 'themes/custom/virtual_team/templates/classy/layout/region.html.twig' */}
+    </div>
+    {/*/.container*/}
+  </section>
+  {/*/.testimonial*/}
+</>
+
+  )
+}
+
+export default Testimonial
+
+
+{/* <div className="container">
+  <div className="region region-testimonial">
+    <div
+      id="block-whatourclientsayaboutus"
+      className="block block-block-content block-block-content7b014572-aa25-4edc-8c6c-ae27c99a0ab4"
+    >
+      <div className="content">
+        <div className="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+          <div className="section-header text-center">
+            <h2>
+              <span>what our client say about us </span>
+            </h2>
+          </div>
+
+          <div
+            className="owl-carousel owl-theme"
+            id="testemonial-carousel"
+          >
+            <div className="home1-testm item">
+              <div className="home1-testm-single text-center">
+                <div className="home1-testm-txt">
+                  <p>
+                    <em>
+                      Everpeak Team is absolutely amazing. His work is
+                      excellent, he is very knowledgable, works fast and
+                      efficient, friendly, always on time, and just an
+                      amazing person to work with. I'm happy the works
+                      is done, but I'm sad to be done working with him..
+                      for now! I recommend him to everyone looking to
+                      migrate their drupal site."
+                    </em>
+                  </p>
+                  <h3>Michael</h3>
+                </div>
+                {/*/.home1-testm-txt*/}
+              </div>
+              {/*/.home1-testm-single*/}
+            </div>
+            {/*/.item*/}
+            <div className="home1-testm item">
+              <div className="home1-testm-single text-center">
+                <div className="home1-testm-txt">
+                  <p>
+                    <em>
+                      Everpeak Team was very professional and skilled.
+                      Vidit was quick to communicate and very accessible
+                      to meet and work on the issues. We highly
+                      recommend Everpeak It Solution and will use him in
+                      the future!
+                    </em>
+                  </p>
+                  <h3>Sam Gotts</h3>
+                </div>
+                {/*/.home1-testm-txt*/}
+              </div>
+              {/*/.home1-testm-single*/}
+            </div>
+            {/*/.item*/}
+            <div className="home1-testm item">
+              <div className="home1-testm-single text-center">
+                <div className="home1-testm-txt">
+                  <p>
+                    <em>
+                      Working with Everpeak was a pleasure. Vidit was
+                      very responsive, quick and collaborated with me
+                      until the requirements for this project were met.
+                      Highly recommended. I'll definitely work with him
+                      again in the future. I'm a developer myself so I
+                      can vouch for his competence. Thank you!"
+                    </em>
+                  </p>
+                  <h3>
+                    <strong data-v-0bb8c326="">David Mansaray</strong>
+                    <a href="#"> </a>
+                  </h3>
+                </div>
+                {/*/.home1-testm-txt*/}
+              </div>
+              {/*/.home1-testm-single*/}
+            </div>
+            {/*/.item*/}
+          </div>
+          {/*/.testemonial-carousel*/}
+        </div>
+        {/* END OUTPUT from 'themes/custom/virtual_team/templates/classy/field/field--text-with-summary.html.twig' */}
+      </div>
+    </div>
+    {/* END OUTPUT from 'themes/custom/virtual_team/templates/block.html.twig' */}
+  </div>
+  {/* END OUTPUT from 'themes/custom/virtual_team/templates/classy/layout/region.html.twig' */}
+</div>
+*/}

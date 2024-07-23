@@ -1,0 +1,47 @@
+.statistics{
+	position:relative;
+	background:url(../assets/counter-banner.jpg)no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding: 98px 0 81px;
+    z-index:3;
+}
+.statistics:before{
+	position:absolute;
+	content:'';
+	background:rgba(24,172,255,.6);
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+z-index: -1;
+}
+
+.single-ststistics-box {
+    display: flex;
+    flex-direction: column;
+	text-align: center;
+	justify-content: center;
+    margin-bottom:30px;
+	height: 75px;
+}
+.statistics-img{
+	margin-left: 30px;
+}
+
+.statistics-content {
+    margin-left: 28px;
+}
+.statistics-content .counter{
+	color:#fff;
+	font-size:32px;
+	font-family:( --font-family);
+}
+.statistics-content h3{
+	color:#fff;
+	font-size:20px;
+	text-transform:capitalize;
+	font-family:( --font-family);
+	margin-top: 9px;
+	line-height: 1.5;
+}

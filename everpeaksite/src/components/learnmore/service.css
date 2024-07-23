@@ -1,0 +1,141 @@
+
+	
+        .pop-up {
+    margin: 0 auto;
+   background: #FFFFFF;
+   	/* margin-bottom: 15px; */
+	 font-family:Arial, Helvetica, sans-serif;
+   line-height: 1.8;
+    transition: .5s;
+    padding: 12px 22px 20px;
+    height: 250px;
+    border-radius: 5px;
+    max-width: 375px;
+    box-shadow: 0px 0px 20px rgba(77, 72, 255, 0.16);
+}
+.pop-txt h2 a{
+    color: #44454f;
+    font-size: 18px;
+    font-family: ( --font-family);
+    text-decoration: none;
+    padding: 50px 9px 25px;
+}
+.pop-dec{
+    font-size: 20px;
+  
+}
+.skill{
+        /* display: block; */
+    
+    /* margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px; */
+
+   
+    }
+#service{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+#service2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+ #colorbox,
+ #cboxOverlay,
+ #cboxWrapper {
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 9999;
+   overflow: hidden;
+ }
+ #cboxOverlay {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+ }
+ 
+ #popup{
+    display: block;
+    visibility: visible;
+    top: 0px;
+    
+   height: 800px;
+    position: fixed;
+    margin-left: 80px;
+    margin-right: 40px;
+   
+    background-color: #fff;
+    border-radius: 5px;
+}
+#popup1{
+  display: block;
+  visibility: visible;
+  box-shadow: 0px 0px 20px rgba(77, 72, 255, 0.16);
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 720px;
+    margin: 0 auto;
+}
+ 
+
+/* service3 learm more */
+
+#service3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+#popup2{
+  display: block;
+  visibility: visible;
+  box-shadow: 0px 0px 20px rgba(77, 72, 255, 0.16);
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 720px;
+    margin: 0 auto;
+}
+ 
+/* service 4 */
+#popup3{
+  display: block;
+  visibility: visible;
+  box-shadow: 0px 0px 20px rgba(77, 72, 255, 0.16);
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+#service4{
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
